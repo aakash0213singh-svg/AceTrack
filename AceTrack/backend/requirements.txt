@@ -1,0 +1,36 @@
+# --- Core API & Server ---
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+
+# --- Pydantic & Validation ---
+pydantic==2.11.7
+email-validator>=2.0.0
+
+# --- Database Drivers ---
+psycopg2-binary==2.9.11
+SQLAlchemy>=2.0.36
+pymongo[srv]==4.15.3
+# pymongo[srv]==3.12
+dnspython==2.7.0
+
+# --- AI & Auth ---
+openai==1.82.1
+bcrypt==4.3.0
+# Fixes the 'ModuleNotFoundError: No module named jose'
+python-jose[cryptography]==3.3.0  
+passlib[bcrypt]==1.7.4
+certifi==2024.12.14
+google-auth>=2.0.0
+
+# --- File Processing & Generation ---
+pandas==2.2.3
+openpyxl==3.1.5
+python-docx==1.1.2
+fpdf==1.7.2
+
+# --- Utils ---
+requests==2.32.3
+anyio==3.7.1
+cloudinary
